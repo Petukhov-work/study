@@ -9,3 +9,7 @@
     return array;
 }
 
+void PrintMassiv (str [] massiv)
+{
+    for (int i=0; i< massiv.Length;i++) Console.Write($"{massiv[i]} ");
+}
